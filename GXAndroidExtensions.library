@@ -1,0 +1,11 @@
+<ExtensionLibrary Name="GXAndroidExtensions">
+	<Implements>
+		<ExternalObject name="MyApi"/>
+	</Implements>
+	<Android>
+		<GroupId>com.example.gxandroidextensions</GroupId>
+		<Name>library</Name>
+		<Version>1.0</Version>
+		<ModuleClass>com.example.gxandroidextensions.GXAndroidExtensionsModule</ModuleClass>
+	</Android>
+</ExtensionLibrary>
