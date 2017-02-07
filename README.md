@@ -35,4 +35,4 @@ Use the External object from any object (Smart Devices).
 - [Creating an Extension Library from scratch for Android](http://wiki.genexus.com/commwiki/servlet/wiki?33546)
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](License.txt) file for more details.
