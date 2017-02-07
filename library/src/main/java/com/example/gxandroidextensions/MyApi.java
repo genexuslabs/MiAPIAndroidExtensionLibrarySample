@@ -45,6 +45,7 @@ public class MyApi extends ExternalApi
     private void sendToast(final String value, final int duration)
     {
         Services.Log.debug(NAME,"Toast:'"+value+"' duration:"+duration); //$NON-NLS-1$
+
         getActivity().runOnUiThread(new Runnable() {
             @Override
             public void run() {

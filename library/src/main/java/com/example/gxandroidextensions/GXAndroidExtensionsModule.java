@@ -10,12 +10,10 @@ public class GXAndroidExtensionsModule implements GenexusModule {
 
     @Override
     public void initialize(Context context) {
-
         ExternalApiDefinition mAPI = new ExternalApiDefinition(
                 MyApi.NAME,
                 MyApi.class
         );
         ExternalApiFactory.addApi(mAPI);
-
     }
 }
