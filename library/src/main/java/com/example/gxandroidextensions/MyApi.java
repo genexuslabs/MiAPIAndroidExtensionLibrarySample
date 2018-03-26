@@ -5,6 +5,7 @@ import android.widget.Toast;
 import com.artech.base.services.Services;
 import com.artech.externalapi.ExternalApi;
 import com.artech.externalapi.ExternalApiResult;
+import com.artech.actions.ApiAction;
 
 import java.util.List;
 
@@ -17,7 +18,8 @@ public class MyApi extends ExternalApi
     private static final String METHOD_SHORT_TOAST = "shortToast";
     private static final String METHOD_LONG_TOAST = "longToast";
 
-    public MyApi() {
+    public MyApi(ApiAction action) {
+        super(action);
         addMethodHandler(METHOD_SHORT_TOAST, 1, mShortToast);
         addMethodHandler(METHOD_LONG_TOAST, 1, mLongToast);
     }
