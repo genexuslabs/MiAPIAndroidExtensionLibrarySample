@@ -10,6 +10,8 @@ This is the complete sample for [this article](http://wiki.genexus.com/commwiki/
 
 For more details check [Android Requirements for GeneXus 15](http://wiki.genexus.com/commwiki/servlet/wiki?14449).
 
+**Important** This project is specific for GeneXus v15 and is no longer maintaied, check [here](https://github.com/genexuslabs/SDExtensionsSample) for v16 and higher versions.
+
 ## Instructions
 
 ### Deploy the GeneXus Android Module to GeneXus
